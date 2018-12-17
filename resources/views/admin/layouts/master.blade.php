@@ -1,0 +1,7 @@
+@include('admin.layouts.header')
+@include('admin.layouts.navbar')
+@include('admin.layouts.leftsidebar')
+@include('admin.layouts.mega_menubar')
+@include('admin.layouts.rightsidebar')
+@yield('content')
+@include('admin.layouts.footer')
